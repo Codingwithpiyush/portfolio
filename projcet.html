@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="project.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <h2 class="logo">Piyush Munde</h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="home">
+  <p class="intro">Hello, I'm</p>
+  <h1 class="name fade-in">Piyush Munde</h1>
+  <p class="role fade-in">Frontend Developer | React</p>
+  <div class="home-buttons">
+    <a href="#contact" class="btn solid">
+      Contact Info
+    </a>
+  </div>
+
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/piyushm11/" target="_blank">
+      <img src="./photos/lik.png" alt="LinkedIn">
+    </a>
+    <a href="https://github.com/Codingwithpiyush" target="_blank">
+      <img src="./photos/github.jpg" alt="GitHub">
+    </a>
+  </div>
+</section>
+
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <div class="about-container">
+    <p class="about-text">
+      I am an Information Technology undergraduate with a strong interest in
+      frontend web development. I build clean, responsive, and user-friendly
+      websites using modern web technologies. I enjoy turning ideas into
+      functional digital experiences and continuously improve my skills by
+      working on real-world projects.
+    </p>
+  </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills-section">
+  <p class="skills-subtitle">Explore My</p>
+  <h2 class="skills-title">Skills</h2>
+
+  <div class="skills-cards">
+
+    <!-- Frontend Skills -->
+    <div class="skills-card">
+      <h3>Frontend Development</h3>
+
+      <ul class="skills-list">
+        <li><span>✔</span> HTML5</li>
+        <li><span>✔</span> CSS3</li>
+        <li><span>✔</span> JavaScript</li>
+        <li><span>✔</span> React.js</li>
+      </ul>
+    </div>
+
+    <!-- Tools & UI Skills -->
+    <div class="skills-card">
+      <h3>Tools & Development Skills</h3>
+
+      <ul class="skills-list">
+        <li><span>✔</span> REST APIs</li>
+        <li><span>✔</span> Fetch / Axios</li>
+        <li><span>✔</span> Git & GitHub, Netlify/Versel</li>
+        <li><span>✔</span> Responsive Design</li>
+        <li><span>✔</span> CSS Animations</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="projects-container">
+    <!-- Project Card 1 -->
+    <div class="project-card">
+      <div class="project-img">
+         <img src="./photos/spotify.png" alt="Spotify Clone">
+      </div>
+      <h3>Spotify Clone</h3>
+      <div class="project-links">
+        <a href="https://github.com/Codingwithpiyush/spotify-clone.git" target="_blank" class="btn outline">GitHub</a>
+        <a href="https://spotify-cloe.netlify.app/" target="_blank" class="btn outline">Live Demo</a>
+      </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="project-card">
+      <div class="project-img">
+         <img src="./photos/weather.png" alt="Weather Dashboard">
+      </div>
+      <h3>Weather Analytical Dashboard</h3>
+      <div class="project-links">
+        <a href="https://github.com/Codingwithpiyush/weather-dashboard.git" target="_blank" class="btn outline">GitHub</a>
+        <a href="#" target="_blank" class="btn outline">Live Demo</a>
+      </div>
+    </div>
+
+    <!-- Project Card 3 -->
+    <div class="project-card">
+      <div class="project-img">
+         <img src="./photos/simon.png" alt="Weather App">
+      </div>
+      <h3>Simon-Say-Game </h3>
+      <div class="project-links">
+        <a href="https://github.com/Codingwithpiyush/Simon-Say-Game.git" target="_blank" class="btn outline">GitHub</a>
+        <a href="https://simon-x.netlify.app" target="_blank" class="btn outline">Live Demo</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+  <h2 class="contact-title">Contact Me</h2>
+
+  <div class="contact-box">
+    <a href="mailto:piyushmunde53@gmail.com" class="contact-item">
+      <img src="./photos/gg.jpg" alt="Email">
+      <span>piyushmunde53@gmail.com</span>
+    </a>
+
+    <a href="https://www.linkedin.com/in/piyushm11/" target="_blank" class="contact-item">
+      <img src="./photos/lik.png" alt="LinkedIn">
+      <span>LinkedIn</span>
+    </a>
+
+    <a href="https://github.com/Codingwithpiyush" target="_blank" class="contact-item">
+      <img src="./photos/github.jpg" alt="GitHub">
+      <span>GitHub</span>
+    </a>
+  </div>
+</section>
+ 
+  <footer class="footer">
+  <div class="footer-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <p class="footer-text">
+    © 2025 Piyush Munde. All rights reserved.
+  </p>
+</footer>
+  <script src="project.js"></script>
+</body>
+</html>
