@@ -355,6 +355,12 @@ nav ul li a:hover {
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   width: fit-content;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;        /* ✅ KEY FIX */
+  justify-content: center;
+  gap: 16px;
+  padding: 14px 18px;
+}
 }
 
 .contact-item {
@@ -483,6 +489,35 @@ html {
   }
 }
 
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 12px;
+    padding: 14px 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .contact-box {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .contact-box a {
+    font-size: 14px;
+  }
+}
 
 @keyframes fadeUp {
   to {
